@@ -1,16 +1,20 @@
 
-/* TODO debug */
-.debug{
+
+.debug{ /* TODO debug */
     border: 2px dashed lightblue;
 }
+
 #my-nav-bar{
-    height: 90px;
+    height: 60px;
+}
+.my-logo{
+    width: 50px;
 }
 #my-main-content,#my-side-bar{
-    height:calc(100vh - 90px);
+    height:calc(100vh - 60px);
 }
 #my-side-bar{
-    min-width: 90px;
+    min-width: 70px;
     background-color: rgb(5,29,52);
 }
 #my-main-content{
@@ -30,6 +34,6 @@
 
 @media screen and (min-width: 992px) {
     #my-side-bar{
-        min-width: 180px;
+        min-width: 140px;
 }
 }
