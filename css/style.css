@@ -1,3 +1,25 @@
+
+/* TODO debug */
+.debug{
+    border: 2px dashed lightblue;
+}
+#my-nav-bar{
+    height: 90px;
+}
+#my-main-content,#my-side-bar{
+    height:calc(100vh - 90px);
+}
+#my-side-bar{
+    min-width: 90px;
+    background-color: rgb(5,29,52);
+}
+#my-main-content{
+    width: 100%;
+    overflow: auto;
+}
+
+
+
 /* Breakpoints
   xs: 0,
   sm: 576px,
@@ -5,3 +27,9 @@
   lg: 992px,
   xl: 1200px,
   xxl: 1400px */
+
+@media screen and (min-width: 992px) {
+    #my-side-bar{
+        min-width: 180px;
+}
+}
