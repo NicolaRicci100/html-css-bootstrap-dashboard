@@ -17,6 +17,10 @@
     min-width: 70px;
     background-color: rgb(5,29,52);
 }
+#my-side-bar a {
+    color: white;
+    text-decoration: none;
+}
 #my-main-content{
     width: 100%;
     overflow: auto;
