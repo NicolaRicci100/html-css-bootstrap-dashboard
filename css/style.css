@@ -31,8 +31,9 @@
 .bi-plus-square{
     font-size: 35px;
 }
-
-
+.table img{
+    width: 30px;
+}
 /* Breakpoints
   xs: 0,
   sm: 576px,

@@ -44,7 +44,7 @@
                 </div>
             </div>
         </header>
-        <main>
+        <main class="bg-light">
             <div class="d-flex">
                 <div id="my-side-bar" class="d-flex flex-column justify-content-between align-items-center">
                     <div class="mt-4 d-flex flex-column">
@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div id="my-main-content" class="debug">
-                    <section class="my-first-section container-fluid bg-primary text-light"> <!-- Prima sezione interna -->
+                    <section class="my-first-section container-fluid bg-primary text-light"> <!-- prima sezione interna -->
                         <div class="row gy-3 py-3 row-cols-1 row-cols-md-3">
                             <div class="col order-md-1 col-lg-3 d-lg-flex justify-content-end align-items-center">
                                 <span class="my-small-font">Nuovo Studente</span>
@@ -93,6 +93,186 @@
                             </div>
                         </div>
                     </section>
+                        <section class="container"> <!-- seconda sezione interna --> 
+                            <div class="border rounded px-3 my-4 bg-white">
+                                <table class="table table-hover text-center">
+                                    <thead>
+                                        <tr class="table text-start text-secondary fs-5">
+                                            <th colspan="5">Prossime classi</th>
+                                        </tr>
+                                        <tr class="text-secondary">
+                                            <th class="fw-semibold text-start">Nome</th>
+                                            <th class="fw-semibold d-none d-md-table-cell">Data inizio</th>
+                                            <th class="fw-semibold d-none d-md-table-cell">ROI</th>
+                                            <th class="fw-semibold">Stato</th>
+                                            <th class="fw-semibold">Azioni</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-start fw-semibold text-secondary" scope="row"><img src="img/class-avatar.jpg" alt=""> Classe 75</td>
+                                            <td class="d-none d-md-table-cell">
+                                                <span>15 Feb 2021</span>
+                                            </td>
+                                            <td class="d-none d-md-table-cell">
+                                                <span>20%</span>
+                                            </td>
+                                            <td>
+                                                <span class="badge text-bg-success">Done</span>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-pencil-fill"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-start fw-semibold text-secondary" scope="row"><img src="img/class-avatar.jpg" alt=""> Classe 76</td>
+                                            <td class="d-none d-md-table-cell">
+                                                <span>16 Feb 2021</span>
+                                            </td>
+                                            <td class="d-none d-md-table-cell">
+                                                <span>20%</span>
+                                            </td>
+                                            <td>
+                                                <span class="badge text-bg-success">Done</span>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-pencil-fill"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-start fw-semibold text-secondary" scope="row"><img src="img/class-avatar.jpg" alt=""> Classe 77</td>
+                                            <td class="d-none d-md-table-cell">
+                                                <span>17 Feb 2021</span>
+                                            </td>
+                                            <td class="d-none d-md-table-cell">
+                                                <span>20%</span>
+                                            </td>
+                                            <td>
+                                                <span class="badge text-bg-warning text-light">Process</span>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-pencil-fill"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-start fw-semibold text-secondary" scope="row"><img src="img/class-avatar.jpg" alt=""> Classe 78</td>
+                                            <td class="d-none d-md-table-cell">
+                                                <span>18 Feb 2021</span>
+                                            </td>
+                                            <td class="d-none d-md-table-cell">
+                                                <span>20%</span>
+                                            </td>
+                                            <td>
+                                                <span class="badge text-bg-success">Done</span>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-pencil-fill"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-start fw-semibold text-secondary" scope="row"><img src="img/class-avatar.jpg" alt=""> Classe 79</td>
+                                            <td class="d-none d-md-table-cell">
+                                                <span>19 Feb 2021</span>
+                                            </td>
+                                            <td class="d-none d-md-table-cell">
+                                                <span>20%</span>
+                                            </td>
+                                            <td>
+                                                <span class="badge text-bg-danger">Failed</span>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-pencil-fill"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-start fw-semibold text-secondary" scope="row"><img src="img/class-avatar.jpg" alt=""> Classe 80</td>
+                                            <td class="d-none d-md-table-cell">
+                                                <span>20 Feb 2021</span>
+                                            </td>
+                                            <td class="d-none d-md-table-cell">
+                                                <span>20%</span>
+                                            </td>
+                                            <td>
+                                                <span class="badge text-bg-success">Done</span>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-pencil-fill"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-start fw-semibold text-secondary" scope="row"><img src="img/class-avatar.jpg" alt=""> Classe 81</td>
+                                            <td class="d-none d-md-table-cell">
+                                                <span>21 Feb 2021</span>
+                                            </td>
+                                            <td class="d-none d-md-table-cell">
+                                                <span>20%</span>
+                                            </td>
+                                            <td>
+                                                <span class="badge text-bg-danger">Failed</span>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-pencil-fill"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-start fw-semibold text-secondary" scope="row"><img src="img/class-avatar.jpg" alt=""> Classe 82</td>
+                                            <td class="d-none d-md-table-cell">
+                                                <span>22 Feb 2021</span>
+                                            </td>
+                                            <td class="d-none d-md-table-cell">
+                                                <span>20%</span>
+                                            </td>
+                                            <td>
+                                                <span class="badge text-bg-success">Done</span>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-pencil-fill"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
                 </div>
             </div>
         </main>
