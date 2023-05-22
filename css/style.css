@@ -34,6 +34,10 @@
 .table img{
     width: 30px;
 }
+tr th:not(:first-child){
+    width: 110px;
+}
+
 /* Breakpoints
   xs: 0,
   sm: 576px,
